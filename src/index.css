@@ -1,0 +1,95 @@
+@import "tailwindcss";
+:root {
+    --font-sora: "Sora", sans-serif;
+    --font-code: "Source Code Pro", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+    color-scheme: dark;
+  }
+  * {
+    scroll-behavior: smooth
+  }
+  rotate-45 {
+    @apply rotate-[45deg]
+  }
+  
+  .rotate-90 {
+    @apply rotate-[90deg]
+  }
+  
+  .rotate-135 {
+    @apply rotate-[135deg]
+  }
+  
+  .rotate-180 {
+    @apply rotate-[180deg]
+  }
+  
+  .rotate-225 {
+    @apply rotate-[225deg]
+  }
+  
+  .rotate-270 {
+    @apply rotate-[270deg]
+  }
+  
+  .rotate-315 {
+    @apply rotate-[315deg]
+  }
+  
+  .rotate-360 {
+    @apply rotate-[360deg]
+  }
+  
+  .-rotate-45 {
+    @apply rotate-[-45deg]
+  }
+  
+  .-rotate-90 {
+    @apply rotate-[-90deg]
+  }
+  
+  .-rotate-135 {
+    @apply rotate-[-135deg]
+  }
+  
+  .-rotate-180 {
+    @apply rotate-[-180deg]
+  }
+  
+  .-rotate-225 {
+    @apply rotate-[-225deg]
+  }
+  
+  .-rotate-270 {
+    @apply rotate-[-270deg]
+  }
+  
+  .-rotate-315 {
+    @apply rotate-[-315deg]
+  }
+  
+  .-rotate-360 {
+    @apply rotate-[-360deg]
+  }
+  .bg-n-8{
+    background-color: #0E0C15;
+  }
+  .border-n-8{
+    border-color: #0E0C15;
+  }
+  .ole-regular {
+    font-family: "Ole", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .allura-regular {
+    font-family: "Allura", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @theme{
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 70rem;
+    --breakpoint-2xl: 76rem;  
+  }
+  
