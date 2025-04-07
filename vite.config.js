@@ -4,9 +4,4 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  build: {
-    rollupOptions: {
-      external: ['react-icons/fa']
-    }
-  }
 })
