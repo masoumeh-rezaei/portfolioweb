@@ -64,7 +64,7 @@ export  default function Project(){
         ]
     return(
         <>
-        <div className=' bg-black relative z-40 py-5 md:py-8'>
+        <div className=' bg-black relative z-10 py-5 md:py-8'>
             <div className='container m-auto  -mt-10 pt-10'>
                 <div className=' flex flex-col justify-center items-center md:my-10 my-5 '>
                     
@@ -84,8 +84,8 @@ export  default function Project(){
                   
                   {show1 && (<div className='flex col-span-1 sm:col-span-2  flex-wrap lg:col-span-3 justify-evenly gap-4 my-10 md:my-20  '>
                     {
-                      projects.map((project)=>(
-                        <div key={project.id} className='lg:w-100 sm:w-80 w-[80%] m-auto  relative proj-imgbx overflow-hidden rounded-[20px]'>
+                      projects.map((project,index)=>(
+                        <div key={index} className='lg:w-100 sm:w-80 w-[80%] m-auto  relative proj-imgbx overflow-hidden rounded-[20px]'>
                           <img src={project.imgUrl} className='   cursor-pointer   w-[100%]' />
                           <div className=' absolute   text-center  transition-all duration-200  opacity-0 proj-txtx text-white font-semibold'>
                             <h1 className='text-5xl allura-regular font-extrabold'>{project.title}</h1>

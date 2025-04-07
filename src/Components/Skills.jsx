@@ -27,7 +27,7 @@ export default function Skills(){
     return(
         <>
         <div className='relative'>
-            <div className=' relative container m-auto z-40'>
+            <div className=' relative container m-auto z-10'>
                 <div className='skill-bx'>
                     <h1 className='ole-regular text-7xl bg-clip-text text-transparent bg-gradient-to-b from-purple-200 to-violet-600' id='Skills'>Skills</h1>
                     

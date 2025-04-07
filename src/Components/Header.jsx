@@ -80,7 +80,7 @@ const Header = () =>{
                     </div>
                 </nav>
                 {/*Hamburger menue section*/}
-                <div className="md:hidden  absolute right-5 ">
+                <div className="md:hidden  absolute right-5 z-50">
                     <button onClick={toggleMenu}>
                         {showMenu ? <IoMdClose className="text-2xl w-10 h-10 p-1 border rounded-full transition-all duration-300"/>
                         : <HiMiniSquares2X2 className="text-2x w-10 h-10 p-2 border rounded-full transition-all duration-300"/>}
